@@ -2017,6 +2017,9 @@ input, select, textarea {
 	}
 
 		.icon:before {
+			position: absolute;
+			top: 0;
+			left: 0;
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			display: inline-block;
@@ -2041,9 +2044,9 @@ input, select, textarea {
 			font-weight: 900;
 		}
 
-		.icon.brands:before {
+		/* .icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
-		}
+		} */
 
 		.icon.major {
 			-moz-transform: rotate(-45deg);
